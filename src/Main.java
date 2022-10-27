@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Домашка 6,задача 1:");
        int clientOS = 1;
-       int year = 2010;
-       boolean yearOSFull = year > 2015;
-        boolean yearOSLite = year < 2015;
+       int yearOS = 2010;
+       boolean yearOSFull = yearOS > 2015;
+        boolean yearOSLite = yearOS < 2015;
         if (yearOSFull) {
        switch (clientOS) {
            case 0:
