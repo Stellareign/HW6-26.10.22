@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Домашка 6,задача 1:");
+        System.out.println("Домашка 6,задача 1+2:");
        int clientOS = 1;
        int yearOS = 2010;
        boolean yearOSFull = yearOS > 2015;
