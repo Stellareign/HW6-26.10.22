@@ -1,15 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Домашка 6,задача 1:");
-       int clientOS = 1;
+        System.out.println("Домашка 6,задача 3:");
+       int year = 2021;
+        double liapYear1 =  year % 4;
+        double liapYear2 =  year % 400;
+        double noLiapYear = year % 100;
+       if (noLiapYear != 0 && liapYear1 == 0 || liapYear2 == 0) {
 
-       switch (clientOS) {
-           case 0:
-               System.out.println("Установите версию приложения для iOS по ссылке.");
-               break;
-           case 1:
-               System.out.println("Установите версию приложения для Android по ссылке.");
-               break;
+           System.out.println("Этот год високосный.");
        }
+       else {
+           System.out.println("Этот год не високосный.");
        }
-    }
+
+
+              }
+       }
